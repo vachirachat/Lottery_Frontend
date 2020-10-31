@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 const TicketComponent = (props) => {
     const [canbuyticket, setCanbuyticket] = useState(props.canbuyTicket)
     return (
-        <div class="card" style={{width:'90%', marginLeft:'5%', height:'150px', backgroundColor:'#484281', marginTop: '10px'}}>
+        <div class="card" style={{width:'90%', marginLeft:'5%', height:'150px', backgroundColor:'#484281', marginTop: "20px"}}>
             <div class="card-body" style={{marginLeft: '5%'}}>
                 <p class="card-text" style={{position:'absolute', color:'#FFFFFF'}}>Lottery ID : {`${props.LotteryId}`}</p>
                 <p class="card-text" style={{position:'absolute', paddingTop:'30px', color:'#FFFFFF'}}>{`${props.DrawDate}`}</p>
