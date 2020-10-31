@@ -1,11 +1,11 @@
 import React from 'react';
 
-const thirdPage = () => {
+const ticket = () => {
     return (
-        <div style={{backgroundColor:'#2E295C', height:'100%'}}>
+        <div style={{backgroundColor:'#2E295C', height:'100vh'}}>
             <h1 style={{color:'#FFFFFF'}}>This is ticket</h1>
         </div>
     )
 }
 
-export default thirdPage;
+export default ticket;
